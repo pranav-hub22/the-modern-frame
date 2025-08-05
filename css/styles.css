@@ -61,6 +61,15 @@ h1, h2, h3 {
     gap: 20px;
     margin-bottom: 40px;
 }
+/* Force gallery images to 20px and center them in their cards */
+.gallery-grid img {
+    width: 120px;
+    height: 120px;
+    border-radius: 6px;
+    object-fit: cover;
+    display: block;
+    margin: 0 0 12px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
 
 .artwork-card {
     display: flex;
@@ -102,7 +111,7 @@ footer {
 
 .table th, .table td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 20px;
     text-align: center;
 }
 
